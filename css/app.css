@@ -1,0 +1,229 @@
+body {
+	background-color: #101624;
+}
+
+
+header {
+	background-color: #283658;
+	padding: 2rem;
+}
+
+
+ul {
+	color: #FFFAEB;
+	font-family: broadacre-regular-2, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+a {
+	font-family: broadacre-regular-2, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: #FFFAEB;
+}
+
+
+.hero h1{
+	text-align: center;
+}
+
+.hero p {
+	text-align: center;
+}
+.hero-text {
+	display: grid;
+	place-items: center;
+}
+
+.hero-text * {
+	grid-column: 1;
+	grid-row: 1;
+}
+
+.hero-text h1 {
+	text-decoration: none;
+	color: #101624;
+}
+
+.hero-copy h1 {
+	text-align: center;
+	font-size: 100px;
+}
+
+.hero-copy p {
+	color: #101624;
+	text-align: center;
+}
+
+.amenities h2 {
+	text-align: center;
+}
+
+.amenities img {
+	width: 100%;
+}
+
+header a:hover {
+	color: #F5B400;
+	text-shadow: 0 0 40px #F5B400;
+}
+
+i {
+	color: #FFFAEB;
+}
+
+.orbit-next button {
+	box-shadow: 0 0 40px #F5B400 ;
+}
+
+.orbit {
+	background-color: #283658;
+}
+
+
+.booking {
+/*	background-color: #101624;*/
+	padding: 5rem;
+	margin-top: -10rem;
+	position: relative;
+	z-index: 1;
+}
+
+.booking thead {
+	background-color: #283658;
+	border: 0;
+}
+
+.booking input{
+	padding: 1rem;
+	font-size: ;
+	font-family: ;
+}
+
+.booking input[type="submit"] {
+
+}
+
+.booking th {
+	font-family: broadacre-regular-2, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: #FFFAEB;
+}
+
+.booking tr {
+	font-family: broadacre-regular-2, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: #FFFAEB;
+}
+
+.rooms {
+	background-color: #283658;
+	padding: 2rem 0;
+}
+
+.overlay {
+	background-color: #283658;
+}
+
+.overlay h2 {
+	text-decoration: none;
+}
+
+h1 {
+	color: #FFFAEB;
+	font-family: broadacre-regular-2, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+h2 {
+	color: #FFFAEB;
+	font-family: broadacre-regular-2, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	text-decoration: underline;
+	text-decoration-color: #F5B400;
+}
+
+h3 {
+	font-family: broadacre-thin-3, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: #FFFAEB ;
+
+}
+
+p {
+	color: #FFFAEB;
+	font-family: broadacre-regular-0, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.rooms img {
+	padding: 2rem 0;
+}
+
+
+.button {
+	border: none;
+	color: #FFFAEB;
+	background-color: #283658;
+	padding: 10px 15px;
+	text-align: center;
+	text-decoration: none;
+	font-family: broadacre-regular-2, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	margin: 4px 2px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.button:hover {
+	box-shadow: 0 0 40px #F5B400;
+	background-color: #F5B400;
+}
+
+.gallery {
+	padding: 5rem 0;
+}
+
+.gallery img {
+	width: 100%;
+}
+
+.gallery h2 {
+	text-align: center;
+}
+
+.amenities {
+	padding: 5rem 0;
+}
+
+.amenities img {
+	padding: 1.5rem 0;
+}
+
+.amenities h1 {
+	text-align: center;
+}
+
+.amenities p {
+	text-align: center;
+}
+
+footer {
+	background-color: #283658;
+}
+
+footer h2 {
+
+}
+
+footer img {
+	margin-bottom: 2.5rem;
+}
